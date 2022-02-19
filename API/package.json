@@ -1,0 +1,49 @@
+{
+  "name": "msal-react-call-api-acrs",
+  "version": "1.0.0",
+  "description": "A Node.js & Express web API accepting authorized calls with AAD",
+  "author": "Ivan Farkas",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/IvanFarkas/msal-react-call-api-acrs.git"
+  },
+  "keywords": [
+    "azure-ad",
+    "ms-identity",
+    "node",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://https://github.com/IvanFarkas/msal-react-call-api-acrs/issues"
+  },
+  "homepage": "https://https://github.com/IvanFarkas/msal-react-call-api-acrs#readme",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest --forceExit",
+    "fix": "prettier -w \"./**/*.{js,jsx,json,ts,tsx}\""
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "bootstrap": "^4.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "isomorphic-fetch": "^3.0.0",
+    "lowdb": "^1.0.0",
+    "method-override": "^3.0.0",
+    "microsoft-identity-express": "github:azure-samples/microsoft-identity-express#1.0.0-beta.4",
+    "msal-express-wrapper": "github:azure-samples/msal-express-wrapper#1.0.0-beta.3",
+    "passport": "^0.5.2",
+    "passport-azure-ad": "^4.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "supertest": "^6.2.2"
+  }
+}
